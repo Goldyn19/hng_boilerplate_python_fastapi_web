@@ -88,8 +88,7 @@ api_version_one.include_router(<router_name>)
 ## TEST THE ENDPOINT
 - run the following code
 ```
-python -m unittest tests/v1/test_login.py
-python -m unittest tests/v1/test_signup.py
+pytest
 ```
 
 ## Issues
